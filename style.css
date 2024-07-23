@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.home img{
+    width: 310px;
+    height: 140px;
+} 
+.nav a{
+    color: rgb(71, 39, 39);
+}
+.nav a:hover{
+    color: rgb(17, 59, 17);
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+}
+.banner img{
+    width: 100%;
+    height: 600px;
+}
+.overlay button{
+    background-color: rgb(35, 90, 35);
+    color: white;
+}
+.overlay{
+    border: 1px solid rgb(32, 124, 70);
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 400px;
+    position: absolute;
+    top: 46%;
+    left: 6%;
+    padding: 20px;
+}
+.overlay p{
+    font-size: large;
+}
+.subscribe{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flex;
+    height: 100px;
+    background-color: rgb(21, 105, 21);
+    margin-top: 2px;
+}
+#subb{
+    width: 55%;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding: 35px;
+}
+.subf1{
+    margin-right: 5px;
+    padding: 2px;
+    height: 33px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+.subf1 i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#subf{
+    width: 45%;
+    display: flex;
+    padding-top: 20px;
+}
+#subf button{
+    height: 33px;
+    background-color: rgb(2, 24, 7);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15px;
+}
+#subf button:hover{
+    color: rgb(17, 59, 17);
+}
+.subf1 input{
+    border: none;
+}
+.reviews{
+    margin: 2.5%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rev{
+    width: 50%;
+    height: 350px;
+    margin: 10px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid rgb(23, 132, 63);
+    box-shadow: 1px 1px 5px rgb(15, 180, 109);
+    border-radius: 10px;
+}
+
+.reviews button{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(17, 59, 17);
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: medium;
+}
+
+#mainp{
+    font-size: larger;
+}
+.latest{
+    width: 95%;
+    height: 600px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.latest1{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lat{
+    width: 380px;
+    height: 420px;
+}
+.lat img{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+.lat h4{
+    padding: 20px;
+    color: rgb(28, 128, 50);
+}
+.lat h4:hover{
+    color: black;
+}
+.latest button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(17, 59, 17);
+    color: white;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: larger;
+}
+.latest button:hover{
+    background-color: black;
+}
+.latest h2{
+    margin: 20px;
+}
+.dest{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.dest1{
+    width: 100%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.det{
+    width: 370px;
+    height: 400px;
+}
+.det img{
+    width: 100%;
+    height: 400px;
+    transition: all 0.2s;
+}
+.det h1{
+    text-align: center;
+    position: relative;
+    top: -57%;
+    color: white;
+}
+.det img:hover{
+    filter: brightness(50%);
+}
+.dest button{
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(17, 59, 17);
+    color: white;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: larger;
+}
+.dest button:hover{
+    background-color: rgb(24, 104, 49);
+}
+.dest h2{
+    margin: 20px;
+}
+.seen{
+    width: 95%;
+    height: 200px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.seen1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seenc img{
+    width: 110px;
+    margin: 10px;
+}
+.seen h4{
+    margin: 10px;
+}
+#carouselExampleCaptions{
+    margin-inline: 45px;
+}
+@media only screen and (max-width:600px){
+    .overlay{
+        width: 180px;
+        margin: 0;
+        padding: 10px;
+        top: 245px;
+        left: 25px;
+    }
+    .overlay p{
+        font-size: small;
+    }
+    .overlay button{
+        padding: 2px;
+    }
+    .banner img{
+        height: 550px;
+    }
+    .subscribe{
+        height: 150px;
+    }
+    #subb{
+        margin: 0;
+        width: 40%;
+        padding: 20px;
+        font-size: xx-small;
+    }
+    #subf{
+        margin: 0;
+        padding: 0;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .subf1{
+        margin: 0;
+        padding: 0;
+        height: 25px;
+    }
+    .reviews{
+        flex-direction: column;
+    }
+    .rev{
+        width: 370px;
+        height: 270px;
+        margin: 10px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #mainp{
+        font-size: medium;
+    }
+    .latest{
+        height: 1100px;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .latest1{
+        height: 980px;
+        flex-direction: column;
+    }
+    .lat{
+        height: 350px;
+    }
+    .lat img{
+        height: 250px;
+        border-radius: 15px;
+    }
+    .lat h4{
+        padding: 10px;
+        color: rgb(16, 102, 39);
+        font-size: large;
+    }
+    .latest button{
+        padding: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: medium;
+        margin: 0;
+    }
+    .dest{
+        height: 2300px;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .dest1{
+        height: 1100px;
+        flex-direction: column;
+    }
+    .det{
+        margin: 10px;
+        height: 300px;
+    }
+    .det img{
+        height: 300px;
+    }
+    .det h1{
+        text-align: center;
+        position: relative;
+        top: -58%;
+        color: white;
+    }
+    .dest button{
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .seen{
+        width: 95%;
+        height: 100px;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .seen1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seenc img{
+        width: 55px;
+        margin: 5px;
+    }
+    .seen h4{
+        font-size: medium;
+    }
+}
